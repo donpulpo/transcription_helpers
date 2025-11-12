@@ -267,11 +267,11 @@ uv run podcast_transcriber.py "PODCAST_URL" \
 
 ```
 youtube_downloader/
-   youtube_downloader.py   # Main downloader script
-   pyproject.toml          # Project configuration
-   uv.lock                 # Dependency lock file
-   README.md               # This file
-   downloads/              # Default download directory (created automatically)
+  youtube_downloader.py   # Main downloader script
+  pyproject.toml          # Project configuration
+  uv.lock                 # Dependency lock file
+  README.md               # This file
+  downloads/              # Default download directory (created automatically)
 ```
 
 ## Dependencies
