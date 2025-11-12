@@ -1,0 +1,767 @@
+version = 1
+revision = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "certifi"
+version = "2025.10.5"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/certifi/2025.10.5/certifi-2025.10.5.tar.gz", hash = "sha256:47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/certifi/2025.10.5/certifi-2025.10.5-py3-none-any.whl", hash = "sha256:0f212c2744a9bb6de0c56639a6f68afe01ecd92d91f14ae897c4fe7bbeeef0de" },
+]
+
+[[package]]
+name = "charset-normalizer"
+version = "3.4.4"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4.tar.gz", hash = "sha256:94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:0a98e6759f854bd25a58a73fa88833fba3b7c491169f86ce1180c948ab3fd394" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b5b290ccc2a263e8d185130284f8501e3e36c5e02750fc6b6bdeb2e9e96f1e25" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:74bb723680f9f7a6234dcf67aea57e708ec1fbdf5699fb91dfd6f511b0a320ef" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:f1e34719c6ed0b92f418c7c780480b26b5d9c50349e9a9af7d76bf757530350d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:2437418e20515acec67d86e12bf70056a33abdacb5cb1655042f6538d6b085a8" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:11d694519d7f29d6cd09f6ac70028dba10f92f6cdd059096db198c283794ac86" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:ac1c4a689edcc530fc9d9aa11f5774b9e2f33f9a0c6a57864e90908f5208d30a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:21d142cc6c0ec30d2efee5068ca36c128a30b0f2c53c1c07bd78cb6bc1d3be5f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_armv7l.whl", hash = "sha256:5dbe56a36425d26d6cfb40ce79c314a2e4dd6211d51d6d2191c00bed34f354cc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:5bfbb1b9acf3334612667b61bd3002196fe2a1eb4dd74d247e0f2a4d50ec9bbf" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_riscv64.whl", hash = "sha256:d055ec1e26e441f6187acf818b73564e6e6282709e9bcb5b63f5b23068356a15" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:af2d8c67d8e573d6de5bc30cdb27e9b95e49115cd9baad5ddbd1a6207aaa82a9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:780236ac706e66881f3b7f2f32dfe90507a09e67d1d454c762cf642e6e1586e0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-win32.whl", hash = "sha256:5833d2c39d8896e4e19b689ffc198f08ea58116bee26dea51e362ecc7cd3ed26" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-win_amd64.whl", hash = "sha256:a79cfe37875f822425b89a82333404539ae63dbdddf97f84dcbc3d339aae9525" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp312-cp312-win_arm64.whl", hash = "sha256:376bec83a63b8021bb5c8ea75e21c4ccb86e7e45ca4eb81146091b56599b80c3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:e1f185f86a6f3403aa2420e815904c67b2f9ebc443f045edd0de921108345794" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:6b39f987ae8ccdf0d2642338faf2abb1862340facc796048b604ef14919e55ed" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:3162d5d8ce1bb98dd51af660f2121c55d0fa541b46dff7bb9b9f86ea1d87de72" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:81d5eb2a312700f4ecaa977a8235b634ce853200e828fbadf3a9c50bab278328" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:5bd2293095d766545ec1a8f612559f6b40abc0eb18bb2f5d1171872d34036ede" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a8a8b89589086a25749f471e6a900d3f662d1d3b6e2e59dcecf787b1cc3a1894" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:bc7637e2f80d8530ee4a78e878bce464f70087ce73cf7c1caf142416923b98f1" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:f8bf04158c6b607d747e93949aa60618b61312fe647a6369f88ce2ff16043490" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-musllinux_1_2_armv7l.whl", hash = "sha256:554af85e960429cf30784dd47447d5125aaa3b99a6f0683589dbd27e2f45da44" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:74018750915ee7ad843a774364e13a3db91682f26142baddf775342c3f5b1133" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-musllinux_1_2_riscv64.whl", hash = "sha256:c0463276121fdee9c49b98908b3a89c39be45d86d1dbaa22957e38f6321d4ce3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:362d61fd13843997c1c446760ef36f240cf81d3ebf74ac62652aebaf7838561e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:9a26f18905b8dd5d685d6d07b0cdf98a79f3c7a918906af7cc143ea2e164c8bc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-win32.whl", hash = "sha256:9b35f4c90079ff2e2edc5b26c0c77925e5d2d255c42c74fdb70fb49b172726ac" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-win_amd64.whl", hash = "sha256:b435cba5f4f750aa6c0a0d92c541fb79f69a387c91e61f1795227e4ed9cece14" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp313-cp313-win_arm64.whl", hash = "sha256:542d2cee80be6f80247095cc36c418f7bddd14f4a6de45af91dfad36d817bba2" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-macosx_10_13_universal2.whl", hash = "sha256:da3326d9e65ef63a817ecbcc0df6e94463713b754fe293eaa03da99befb9a5bd" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:8af65f14dc14a79b924524b1e7fffe304517b2bff5a58bf64f30b98bbc5079eb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-manylinux2014_armv7l.manylinux_2_17_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:74664978bb272435107de04e36db5a9735e78232b85b77d45cfb38f758efd33e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:752944c7ffbfdd10c074dc58ec2d5a8a4cd9493b314d367c14d24c17684ddd14" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:d1f13550535ad8cff21b8d757a3257963e951d96e20ec82ab44bc64aeb62a191" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ecaae4149d99b1c9e7b88bb03e3221956f68fd6d50be2ef061b2381b61d20838" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:cb6254dc36b47a990e59e1068afacdcd02958bdcce30bb50cc1700a8b9d624a6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:c8ae8a0f02f57a6e61203a31428fa1d677cbe50c93622b4149d5c0f319c1d19e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-musllinux_1_2_armv7l.whl", hash = "sha256:47cc91b2f4dd2833fddaedd2893006b0106129d4b94fdb6af1f4ce5a9965577c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-musllinux_1_2_ppc64le.whl", hash = "sha256:82004af6c302b5d3ab2cfc4cc5f29db16123b1a8417f2e25f9066f91d4411090" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-musllinux_1_2_riscv64.whl", hash = "sha256:2b7d8f6c26245217bd2ad053761201e9f9680f8ce52f0fcd8d0755aeae5b2152" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-musllinux_1_2_s390x.whl", hash = "sha256:799a7a5e4fb2d5898c60b640fd4981d6a25f1c11790935a44ce38c54e985f828" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:99ae2cffebb06e6c22bdc25801d7b30f503cc87dbd283479e7b606f70aff57ec" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-win32.whl", hash = "sha256:f9d332f8c2a2fcbffe1378594431458ddbef721c1769d78e2cbc06280d8155f9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-win_amd64.whl", hash = "sha256:8a6562c3700cce886c5be75ade4a5db4214fda19fede41d9792d100288d8f94c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-cp314-cp314-win_arm64.whl", hash = "sha256:de00632ca48df9daf77a2c65a484531649261ec9f25489917f09e455cb09ddb2" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/charset-normalizer/3.4.4/charset_normalizer-3.4.4-py3-none-any.whl", hash = "sha256:7a32c560861a02ff789ad905a2fe94e3f840803362c84fecf1851cb4cf3dc37f" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/colorama/0.4.6/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/colorama/0.4.6/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "defusedxml"
+version = "0.7.1"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/defusedxml/0.7.1/defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/defusedxml/0.7.1/defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61" },
+]
+
+[[package]]
+name = "filelock"
+version = "3.20.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/filelock/3.20.0/filelock-3.20.0.tar.gz", hash = "sha256:711e943b4ec6be42e1d4e6690b48dc175c822967466bb31c0c293f34334c13f4" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/filelock/3.20.0/filelock-3.20.0-py3-none-any.whl", hash = "sha256:339b4732ffda5cd79b13f4e2711a31b0365ce445d95d243bb996273d072546a2" },
+]
+
+[[package]]
+name = "fsspec"
+version = "2025.10.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/fsspec/2025.10.0/fsspec-2025.10.0.tar.gz", hash = "sha256:b6789427626f068f9a83ca4e8a3cc050850b6c0f71f99ddb4f542b8266a26a59" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/fsspec/2025.10.0/fsspec-2025.10.0-py3-none-any.whl", hash = "sha256:7c7712353ae7d875407f97715f0e1ffcc21e33d5b24556cb1e090ae9409ec61d" },
+]
+
+[[package]]
+name = "idna"
+version = "3.11"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/idna/3.11/idna-3.11.tar.gz", hash = "sha256:795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/idna/3.11/idna-3.11-py3-none-any.whl", hash = "sha256:771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea" },
+]
+
+[[package]]
+name = "jinja2"
+version = "3.1.6"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "markupsafe" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/jinja2/3.1.6/jinja2-3.1.6.tar.gz", hash = "sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/jinja2/3.1.6/jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67" },
+]
+
+[[package]]
+name = "llvmlite"
+version = "0.45.1"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1.tar.gz", hash = "sha256:09430bb9d0bb58fc45a45a57c7eae912850bedc095cd0810a57de109c69e1c32" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:28e763aba92fe9c72296911e040231d486447c01d4f90027c8e893d89d49b20e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:1a53f4b74ee9fd30cb3d27d904dadece67a7575198bd80e687ee76474620735f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:5b3796b1b1e1c14dcae34285d2f4ea488402fbd2c400ccf7137603ca3800864f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:779e2f2ceefef0f4368548685f0b4adde34e5f4b457e90391f570a10b348d433" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp312-cp312-win_amd64.whl", hash = "sha256:9e6c9949baf25d9aa9cd7cf0f6d011b9ca660dd17f5ba2b23bdbdb77cc86b116" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp313-cp313-macosx_10_15_x86_64.whl", hash = "sha256:d9ea9e6f17569a4253515cc01dade70aba536476e3d750b2e18d81d7e670eb15" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp313-cp313-macosx_12_0_arm64.whl", hash = "sha256:c9f3cadee1630ce4ac18ea38adebf2a4f57a89bd2740ce83746876797f6e0bfb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:57c48bf2e1083eedbc9406fb83c4e6483017879714916fe8be8a72a9672c995a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:3aa3dfceda4219ae39cf18806c60eeb518c1680ff834b8b311bd784160b9ce40" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/llvmlite/0.45.1/llvmlite-0.45.1-cp313-cp313-win_amd64.whl", hash = "sha256:080e6f8d0778a8239cd47686d402cb66eb165e421efa9391366a9b7e5810a38b" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "3.0.3"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3.tar.gz", hash = "sha256:722695808f4b6457b320fdc131280796bdceb04ab50fe1795cd540799ebe1698" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:d53197da72cc091b024dd97249dfc7794d6a56530370992a5e1a08983ad9230e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:1872df69a4de6aead3491198eaf13810b565bdbeec3ae2dc8780f14458ec73ce" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:3a7e8ae81ae39e62a41ec302f972ba6ae23a5c5396c8e60113e9066ef893da0d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:94c6f0bb423f739146aec64595853541634bde58b2135f27f61c1ffd1cd4d16a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:be8813b57049a7dc738189df53d69395eba14fb99345e0a5994914a3864c8a4b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-musllinux_1_2_riscv64.whl", hash = "sha256:83891d0e9fb81a825d9a6d61e3f07550ca70a076484292a70fde82c4b807286f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:77f0643abe7495da77fb436f50f8dab76dbc6e5fd25d39589a0f1fe6548bfa2b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-win32.whl", hash = "sha256:d88b440e37a16e651bda4c7c2b930eb586fd15ca7406cb39e211fcff3bf3017d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-win_amd64.whl", hash = "sha256:26a5784ded40c9e318cfc2bdb30fe164bdb8665ded9cd64d500a34fb42067b1c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp312-cp312-win_arm64.whl", hash = "sha256:35add3b638a5d900e807944a078b51922212fb3dedb01633a8defc4b01a3c85f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:e1cf1972137e83c5d4c136c43ced9ac51d0e124706ee1c8aa8532c1287fa8795" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:116bb52f642a37c115f517494ea5feb03889e04df47eeff5b130b1808ce7c219" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:133a43e73a802c5562be9bbcd03d090aa5a1fe899db609c29e8c8d815c5f6de6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ccfcd093f13f0f0b7fdd0f198b90053bf7b2f02a3927a30e63f3ccc9df56b676" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:509fa21c6deb7a7a273d629cf5ec029bc209d1a51178615ddf718f5918992ab9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:a4afe79fb3de0b7097d81da19090f4df4f8d3a2b3adaa8764138aac2e44f3af1" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-musllinux_1_2_riscv64.whl", hash = "sha256:795e7751525cae078558e679d646ae45574b47ed6e7771863fcc079a6171a0fc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:8485f406a96febb5140bfeca44a73e3ce5116b2501ac54fe953e488fb1d03b12" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-win32.whl", hash = "sha256:bdd37121970bfd8be76c5fb069c7751683bdf373db1ed6c010162b2a130248ed" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-win_amd64.whl", hash = "sha256:9a1abfdc021a164803f4d485104931fb8f8c1efd55bc6b748d2f5774e78b62c5" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313-win_arm64.whl", hash = "sha256:7e68f88e5b8799aa49c85cd116c932a1ac15caaa3f5db09087854d218359e485" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:218551f6df4868a8d527e3062d0fb968682fe92054e89978594c28e642c43a73" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:3524b778fe5cfb3452a09d31e7b5adefeea8c5be1d43c4f810ba09f2ceb29d37" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:4e885a3d1efa2eadc93c894a21770e4bc67899e3543680313b09f139e149ab19" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:8709b08f4a89aa7586de0aadc8da56180242ee0ada3999749b183aa23df95025" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:b8512a91625c9b3da6f127803b166b629725e68af71f8184ae7e7d54686a56d6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:9b79b7a16f7fedff2495d684f2b59b0457c3b493778c9eed31111be64d58279f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-musllinux_1_2_riscv64.whl", hash = "sha256:12c63dfb4a98206f045aa9563db46507995f7ef6d83b2f68eda65c307c6829eb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:8f71bc33915be5186016f675cd83a1e08523649b0e33efdb898db577ef5bb009" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-win32.whl", hash = "sha256:69c0b73548bc525c8cb9a251cddf1931d1db4d2258e9599c28c07ef3580ef354" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-win_amd64.whl", hash = "sha256:1b4b79e8ebf6b55351f0d91fe80f893b4743f104bff22e90697db1590e47a218" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp313-cp313t-win_arm64.whl", hash = "sha256:ad2cf8aa28b8c020ab2fc8287b0f823d0a7d8630784c31e9ee5edea20f406287" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-macosx_10_13_x86_64.whl", hash = "sha256:eaa9599de571d72e2daf60164784109f19978b327a3910d3e9de8c97b5b70cfe" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:c47a551199eb8eb2121d4f0f15ae0f923d31350ab9280078d1e5f12b249e0026" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:f34c41761022dd093b4b6896d4810782ffbabe30f2d443ff5f083e0cbbb8c737" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:457a69a9577064c05a97c41f4e65148652db078a3a509039e64d3467b9e7ef97" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:e8afc3f2ccfa24215f8cb28dcf43f0113ac3c37c2f0f0806d8c70e4228c5cf4d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:ec15a59cf5af7be74194f7ab02d0f59a62bdcf1a537677ce67a2537c9b87fcda" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-musllinux_1_2_riscv64.whl", hash = "sha256:0eb9ff8191e8498cca014656ae6b8d61f39da5f95b488805da4bb029cccbfbaf" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:2713baf880df847f2bece4230d4d094280f4e67b1e813eec43b4c0e144a34ffe" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-win32.whl", hash = "sha256:729586769a26dbceff69f7a7dbbf59ab6572b99d94576a5592625d5b411576b9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-win_amd64.whl", hash = "sha256:bdc919ead48f234740ad807933cdf545180bfbe9342c2bb451556db2ed958581" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314-win_arm64.whl", hash = "sha256:5a7d5dc5140555cf21a6fefbdbf8723f06fcd2f63ef108f2854de715e4422cb4" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-macosx_10_13_x86_64.whl", hash = "sha256:1353ef0c1b138e1907ae78e2f6c63ff67501122006b0f9abad68fda5f4ffc6ab" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:1085e7fbddd3be5f89cc898938f42c0b3c711fdcb37d75221de2666af647c175" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:1b52b4fb9df4eb9ae465f8d0c228a00624de2334f216f178a995ccdcf82c4634" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:fed51ac40f757d41b7c48425901843666a6677e3e8eb0abcff09e4ba6e664f50" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-manylinux_2_31_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:f190daf01f13c72eac4efd5c430a8de82489d9cff23c364c3ea822545032993e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:e56b7d45a839a697b5eb268c82a71bd8c7f6c94d6fd50c3d577fa39a9f1409f5" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_riscv64.whl", hash = "sha256:f3e98bb3798ead92273dc0e5fd0f31ade220f59a266ffd8a4f6065e0a3ce0523" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:5678211cb9333a6468fb8d8be0305520aa073f50d17f089b5b4b477ea6e67fdc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-win32.whl", hash = "sha256:915c04ba3851909ce68ccc2b8e2cd691618c4dc4c4232fb7982bca3f41fd8c3d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-win_amd64.whl", hash = "sha256:4faffd047e07c38848ce017e8725090413cd80cbc23d86e55c587bf979e579c9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/markupsafe/3.0.3/markupsafe-3.0.3-cp314-cp314t-win_arm64.whl", hash = "sha256:32001d6a8fc98c8cb5c947787c5d08b0a50663d139f1305bac5885d98d9b40fa" },
+]
+
+[[package]]
+name = "more-itertools"
+version = "10.8.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/more-itertools/10.8.0/more_itertools-10.8.0.tar.gz", hash = "sha256:f638ddf8a1a0d134181275fb5d58b086ead7c6a72429ad725c67503f13ba30bd" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/more-itertools/10.8.0/more_itertools-10.8.0-py3-none-any.whl", hash = "sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b" },
+]
+
+[[package]]
+name = "mpmath"
+version = "1.3.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/mpmath/1.3.0/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/mpmath/1.3.0/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c" },
+]
+
+[[package]]
+name = "networkx"
+version = "3.5"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/networkx/3.5/networkx-3.5.tar.gz", hash = "sha256:d4c6f9cf81f52d69230866796b82afbccdec3db7ae4fbd1b65ea750feed50037" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/networkx/3.5/networkx-3.5-py3-none-any.whl", hash = "sha256:0030d386a9a06dee3565298b4a734b68589749a544acbb6c412dc9e2489ec6ec" },
+]
+
+[[package]]
+name = "numba"
+version = "0.62.1"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "llvmlite" },
+    { name = "numpy" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1.tar.gz", hash = "sha256:7b774242aa890e34c21200a1fc62e5b5757d5286267e71103257f4e2af0d5161" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:1b743b32f8fa5fff22e19c2e906db2f0a340782caf024477b97801b918cf0494" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:90fa21b0142bcf08ad8e32a97d25d0b84b1e921bc9423f8dda07d3652860eef6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:6ef84d0ac19f1bf80431347b6f4ce3c39b7ec13f48f233a48c01e2ec06ecbc59" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:9315cc5e441300e0ca07c828a627d92a6802bcbf27c5487f31ae73783c58da53" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp312-cp312-win_amd64.whl", hash = "sha256:44e3aa6228039992f058f5ebfcfd372c83798e9464297bdad8cc79febcf7891e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp313-cp313-macosx_10_15_x86_64.whl", hash = "sha256:b72489ba8411cc9fdcaa2458d8f7677751e94f0109eeb53e5becfdc818c64afb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp313-cp313-macosx_12_0_arm64.whl", hash = "sha256:44a1412095534a26fb5da2717bc755b57da5f3053965128fe3dc286652cc6a92" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:8c9460b9e936c5bd2f0570e20a0a5909ee6e8b694fd958b210e3bde3a6dba2d7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:728f91a874192df22d74e3fd42c12900b7ce7190b1aad3574c6c61b08313e4c5" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numba/0.62.1/numba-0.62.1-cp313-cp313-win_amd64.whl", hash = "sha256:bbf3f88b461514287df66bc8d0307e949b09f2b6f67da92265094e8fa1282dd8" },
+]
+
+[[package]]
+name = "numpy"
+version = "2.3.4"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4.tar.gz", hash = "sha256:a7d018bfedb375a8d979ac758b120ba846a7fe764911a64465fd87b8729f4a6a" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:ef1b5a3e808bc40827b5fa2c8196151a4c5abe110e1726949d7abddfe5c7ae11" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:c2f91f496a87235c6aaf6d3f3d89b17dba64996abadccb289f48456cff931ca9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:f77e5b3d3da652b474cc80a14084927a5e86a5eccf54ca8ca5cbd697bf7f2667" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-macosx_14_0_x86_64.whl", hash = "sha256:8ab1c5f5ee40d6e01cbe96de5863e39b215a4d24e7d007cad56c7184fdf4aeef" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:77b84453f3adcb994ddbd0d1c5d11db2d6bda1a2b7fd5ac5bd4649d6f5dc682e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4121c5beb58a7f9e6dfdee612cb24f4df5cd4db6e8261d7f4d7450a997a65d6a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:65611ecbb00ac9846efe04db15cbe6186f562f6bb7e5e05f077e53a599225d16" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:dabc42f9c6577bcc13001b8810d300fe814b4cfbe8a92c873f269484594f9786" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-win32.whl", hash = "sha256:a49d797192a8d950ca59ee2d0337a4d804f713bb5c3c50e8db26d49666e351dc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-win_amd64.whl", hash = "sha256:985f1e46358f06c2a09921e8921e2c98168ed4ae12ccd6e5e87a4f1857923f32" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp312-cp312-win_arm64.whl", hash = "sha256:4635239814149e06e2cb9db3dd584b2fa64316c96f10656983b8026a82e6e4db" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:c090d4860032b857d94144d1a9976b8e36709e40386db289aaf6672de2a81966" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a13fc473b6db0be619e45f11f9e81260f7302f8d180c49a22b6e6120022596b3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:3634093d0b428e6c32c3a69b78e554f0cd20ee420dcad5a9f3b2a63762ce4197" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-macosx_14_0_x86_64.whl", hash = "sha256:043885b4f7e6e232d7df4f51ffdef8c36320ee9d5f227b380ea636722c7ed12e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:4ee6a571d1e4f0ea6d5f22d6e5fbd6ed1dc2b18542848e1e7301bd190500c9d7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:fc8a63918b04b8571789688b2780ab2b4a33ab44bfe8ccea36d3eba51228c953" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:40cc556d5abbc54aabe2b1ae287042d7bdb80c08edede19f0c0afb36ae586f37" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:ecb63014bb7f4ce653f8be7f1df8cbc6093a5a2811211770f6606cc92b5a78fd" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-win32.whl", hash = "sha256:e8370eb6925bb8c1c4264fec52b0384b44f675f191df91cbe0140ec9f0955646" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-win_amd64.whl", hash = "sha256:56209416e81a7893036eea03abcb91c130643eb14233b2515c90dcac963fe99d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313-win_arm64.whl", hash = "sha256:a700a4031bc0fd6936e78a752eefb79092cecad2599ea9c8039c548bc097f9bc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:86966db35c4040fdca64f0816a1c1dd8dbd027d90fca5a57e00e1ca4cd41b879" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:838f045478638b26c375ee96ea89464d38428c69170360b23a1a50fa4baa3562" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-macosx_14_0_arm64.whl", hash = "sha256:d7315ed1dab0286adca467377c8381cd748f3dc92235f22a7dfc42745644a96a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-macosx_14_0_x86_64.whl", hash = "sha256:84f01a4d18b2cc4ade1814a08e5f3c907b079c847051d720fad15ce37aa930b6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:817e719a868f0dacde4abdfc5c1910b301877970195db9ab6a5e2c4bd5b121f7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:85e071da78d92a214212cacea81c6da557cab307f2c34b5f85b628e94803f9c0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:2ec646892819370cf3558f518797f16597b4e4669894a2ba712caccc9da53f1f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:035796aaaddfe2f9664b9a9372f089cfc88bd795a67bd1bfe15e6e770934cf64" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-win32.whl", hash = "sha256:fea80f4f4cf83b54c3a051f2f727870ee51e22f0248d3114b8e755d160b38cfb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-win_amd64.whl", hash = "sha256:15eea9f306b98e0be91eb344a94c0e630689ef302e10c2ce5f7e11905c704f9c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp313-cp313t-win_arm64.whl", hash = "sha256:b6c231c9c2fadbae4011ca5e7e83e12dc4a5072f1a1d85a0a7b3ed754d145a40" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:81c3e6d8c97295a7360d367f9f8553973651b76907988bb6066376bc2252f24e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:7c26b0b2bf58009ed1f38a641f3db4be8d960a417ca96d14e5b06df1506d41ff" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-macosx_14_0_arm64.whl", hash = "sha256:62b2198c438058a20b6704351b35a1d7db881812d8512d67a69c9de1f18ca05f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-macosx_14_0_x86_64.whl", hash = "sha256:9d729d60f8d53a7361707f4b68a9663c968882dd4f09e0d58c044c8bf5faee7b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:bd0c630cf256b0a7fd9d0a11c9413b42fef5101219ce6ed5a09624f5a65392c7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d5e081bc082825f8b139f9e9fe42942cb4054524598aaeb177ff476cc76d09d2" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:15fb27364ed84114438fff8aaf998c9e19adbeba08c0b75409f8c452a8692c52" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:85d9fb2d8cd998c84d13a79a09cc0c1091648e848e4e6249b0ccd7f6b487fa26" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-win32.whl", hash = "sha256:e73d63fd04e3a9d6bc187f5455d81abfad05660b212c8804bf3b407e984cd2bc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-win_amd64.whl", hash = "sha256:3da3491cee49cf16157e70f607c03a217ea6647b1cea4819c4f48e53d49139b9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314-win_arm64.whl", hash = "sha256:6d9cd732068e8288dbe2717177320723ccec4fb064123f0caf9bbd90ab5be868" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:22758999b256b595cf0b1d102b133bb61866ba5ceecf15f759623b64c020c9ec" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:9cb177bc55b010b19798dc5497d540dea67fd13a8d9e882b2dae71de0cf09eb3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-macosx_14_0_arm64.whl", hash = "sha256:0f2bcc76f1e05e5ab58893407c63d90b2029908fa41f9f1cc51eecce936c3365" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-macosx_14_0_x86_64.whl", hash = "sha256:8dc20bde86802df2ed8397a08d793da0ad7a5fd4ea3ac85d757bf5dd4ad7c252" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5e199c087e2aa71c8f9ce1cb7a8e10677dc12457e7cc1be4798632da37c3e86e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:85597b2d25ddf655495e2363fe044b0ae999b75bc4d630dc0d886484b03a5eb0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:04a69abe45b49c5955923cf2c407843d1c85013b424ae8a560bba16c92fe44a0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:e1708fac43ef8b419c975926ce1eaf793b0c13b7356cfab6ab0dc34c0a02ac0f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-win32.whl", hash = "sha256:863e3b5f4d9915aaf1b8ec79ae560ad21f0b8d5e3adc31e73126491bb86dee1d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-win_amd64.whl", hash = "sha256:962064de37b9aef801d33bc579690f8bfe6c5e70e29b61783f60bcba838a14d6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/numpy/2.3.4/numpy-2.3.4-cp314-cp314t-win_arm64.whl", hash = "sha256:8b5a9a39c45d852b62693d9b3f3e0fe052541f804296ff401a72a1b60edafb29" },
+]
+
+[[package]]
+name = "nvidia-cublas-cu12"
+version = "12.8.4.1"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cublas-cu12/12.8.4.1/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl", hash = "sha256:8ac4e771d5a348c551b2a426eda6193c19aa630236b418086020df5ba9667142" },
+]
+
+[[package]]
+name = "nvidia-cuda-cupti-cu12"
+version = "12.8.90"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cuda-cupti-cu12/12.8.90/nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:ea0cb07ebda26bb9b29ba82cda34849e73c166c18162d3913575b0c9db9a6182" },
+]
+
+[[package]]
+name = "nvidia-cuda-nvrtc-cu12"
+version = "12.8.93"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cuda-nvrtc-cu12/12.8.93/nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl", hash = "sha256:a7756528852ef889772a84c6cd89d41dfa74667e24cca16bb31f8f061e3e9994" },
+]
+
+[[package]]
+name = "nvidia-cuda-runtime-cu12"
+version = "12.8.90"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cuda-runtime-cu12/12.8.90/nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:adade8dcbd0edf427b7204d480d6066d33902cab2a4707dcfc48a2d0fd44ab90" },
+]
+
+[[package]]
+name = "nvidia-cudnn-cu12"
+version = "9.10.2.21"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "nvidia-cublas-cu12" },
+]
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cudnn-cu12/9.10.2.21/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl", hash = "sha256:949452be657fa16687d0930933f032835951ef0892b37d2d53824d1a84dc97a8" },
+]
+
+[[package]]
+name = "nvidia-cufft-cu12"
+version = "11.3.3.83"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "nvidia-nvjitlink-cu12" },
+]
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cufft-cu12/11.3.3.83/nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74" },
+]
+
+[[package]]
+name = "nvidia-cufile-cu12"
+version = "1.13.1.3"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cufile-cu12/1.13.1.3/nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:1d069003be650e131b21c932ec3d8969c1715379251f8d23a1860554b1cb24fc" },
+]
+
+[[package]]
+name = "nvidia-curand-cu12"
+version = "10.3.9.90"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-curand-cu12/10.3.9.90/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl", hash = "sha256:b32331d4f4df5d6eefa0554c565b626c7216f87a06a4f56fab27c3b68a830ec9" },
+]
+
+[[package]]
+name = "nvidia-cusolver-cu12"
+version = "11.7.3.90"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "nvidia-cublas-cu12" },
+    { name = "nvidia-cusparse-cu12" },
+    { name = "nvidia-nvjitlink-cu12" },
+]
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cusolver-cu12/11.7.3.90/nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl", hash = "sha256:4376c11ad263152bd50ea295c05370360776f8c3427b30991df774f9fb26c450" },
+]
+
+[[package]]
+name = "nvidia-cusparse-cu12"
+version = "12.5.8.93"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "nvidia-nvjitlink-cu12" },
+]
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cusparse-cu12/12.5.8.93/nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:1ec05d76bbbd8b61b06a80e1eaf8cf4959c3d4ce8e711b65ebd0443bb0ebb13b" },
+]
+
+[[package]]
+name = "nvidia-cusparselt-cu12"
+version = "0.7.1"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-cusparselt-cu12/0.7.1/nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl", hash = "sha256:f1bb701d6b930d5a7cea44c19ceb973311500847f81b634d802b7b539dc55623" },
+]
+
+[[package]]
+name = "nvidia-nccl-cu12"
+version = "2.27.5"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-nccl-cu12/2.27.5/nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:ad730cf15cb5d25fe849c6e6ca9eb5b76db16a80f13f425ac68d8e2e55624457" },
+]
+
+[[package]]
+name = "nvidia-nvjitlink-cu12"
+version = "12.8.93"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-nvjitlink-cu12/12.8.93/nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl", hash = "sha256:81ff63371a7ebd6e6451970684f916be2eab07321b73c9d244dc2b4da7f73b88" },
+]
+
+[[package]]
+name = "nvidia-nvshmem-cu12"
+version = "3.3.20"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-nvshmem-cu12/3.3.20/nvidia_nvshmem_cu12-3.3.20-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:d00f26d3f9b2e3c3065be895e3059d6479ea5c638a3f38c9fec49b1b9dd7c1e5" },
+]
+
+[[package]]
+name = "nvidia-nvtx-cu12"
+version = "12.8.90"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/nvidia-nvtx-cu12/12.8.90/nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:5b17e2001cc0d751a5bc2c6ec6d26ad95913324a4adb86788c944f8ce9ba441f" },
+]
+
+[[package]]
+name = "openai-whisper"
+version = "20250625"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "more-itertools" },
+    { name = "numba" },
+    { name = "numpy" },
+    { name = "tiktoken" },
+    { name = "torch" },
+    { name = "tqdm" },
+    { name = "triton", marker = "(platform_machine == 'x86_64' and sys_platform == 'linux') or sys_platform == 'linux2'" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/openai-whisper/20250625/openai_whisper-20250625.tar.gz", hash = "sha256:37a91a3921809d9f44748ffc73c0a55c9f366c85a3ef5c2ae0cc09540432eb96" }
+
+[[package]]
+name = "regex"
+version = "2025.11.3"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3.tar.gz", hash = "sha256:1fedc720f9bb2494ce31a58a1631f9c82df6a09b49c19517ea5cc280b4541e01" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:bc8ab71e2e31b16e40868a40a69007bc305e1109bd4658eb6cad007e0bf67c41" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:22b29dda7e1f7062a52359fca6e58e548e28c6686f205e780b02ad8ef710de36" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:3a91e4a29938bc1a082cc28fdea44be420bf2bebe2665343029723892eb073e1" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:08b884f4226602ad40c5d55f52bf91a9df30f513864e0054bad40c0e9cf1afb7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:3e0b11b2b2433d1c39c7c7a30e3f3d0aeeea44c2a8d0bae28f6b95f639927a69" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:87eb52a81ef58c7ba4d45c3ca74e12aa4b4e77816f72ca25258a85b3ea96cb48" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a12ab1f5c29b4e93db518f5e3872116b7e9b1646c9f9f426f777b50d44a09e8c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:7521684c8c7c4f6e88e35ec89680ee1aa8358d3f09d27dfbdf62c446f5d4c695" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:7fe6e5440584e94cc4b3f5f4d98a25e29ca12dccf8873679a635638349831b98" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:8e026094aa12b43f4fd74576714e987803a315c76edb6b098b9809db5de58f74" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:435bbad13e57eb5606a68443af62bed3556de2f46deb9f7d4237bc2f1c9fb3a0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-win32.whl", hash = "sha256:3839967cf4dc4b985e1570fd8d91078f0c519f30491c60f9ac42a8db039be204" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-win_amd64.whl", hash = "sha256:e721d1b46e25c481dc5ded6f4b3f66c897c58d2e8cfdf77bbced84339108b0b9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp312-cp312-win_arm64.whl", hash = "sha256:64350685ff08b1d3a6fff33f45a9ca183dc1d58bbfe4981604e70ec9801bbc26" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:c1e448051717a334891f2b9a620fe36776ebf3dd8ec46a0b877c8ae69575feb4" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:9b5aca4d5dfd7fbfbfbdaf44850fcc7709a01146a797536a8f84952e940cca76" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:04d2765516395cf7dda331a244a3282c0f5ae96075f728629287dfa6f76ba70a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5d9903ca42bfeec4cebedba8022a7c97ad2aab22e09573ce9976ba01b65e4361" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:639431bdc89d6429f6721625e8129413980ccd62e9d3f496be618a41d205f160" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:f117efad42068f9715677c8523ed2be1518116d1c49b1dd17987716695181efe" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:4aecb6f461316adf9f1f0f6a4a1a3d79e045f9b71ec76055a791affa3b285850" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:3b3a5f320136873cc5561098dfab677eea139521cb9a9e8db98b7e64aef44cbc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:75fa6f0056e7efb1f42a1c34e58be24072cb9e61a601340cc1196ae92326a4f9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:dbe6095001465294f13f1adcd3311e50dd84e5a71525f20a10bd16689c61ce0b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:454d9b4ae7881afbc25015b8627c16d88a597479b9dea82b8c6e7e2e07240dc7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-win32.whl", hash = "sha256:28ba4d69171fc6e9896337d4fc63a43660002b7da53fc15ac992abcf3410917c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-win_amd64.whl", hash = "sha256:bac4200befe50c670c405dc33af26dad5a3b6b255dd6c000d92fe4629f9ed6a5" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313-win_arm64.whl", hash = "sha256:2292cd5a90dab247f9abe892ac584cb24f0f54680c73fcb4a7493c66c2bf2467" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:1eb1ebf6822b756c723e09f5186473d93236c06c579d2cc0671a722d2ab14281" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:1e00ec2970aab10dc5db34af535f21fcf32b4a31d99e34963419636e2f85ae39" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:a4cb042b615245d5ff9b3794f56be4138b5adc35a4166014d31d1814744148c7" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:44f264d4bf02f3176467d90b294d59bf1db9fe53c141ff772f27a8b456b2a9ed" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:7be0277469bf3bd7a34a9c57c1b6a724532a0d235cd0dc4e7f4316f982c28b19" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:0d31e08426ff4b5b650f68839f5af51a92a5b51abd8554a60c2fbc7c71f25d0b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:e43586ce5bd28f9f285a6e729466841368c4a0353f6fd08d4ce4630843d3648a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:0f9397d561a4c16829d4e6ff75202c1c08b68a3bdbfe29dbfcdb31c9830907c6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-musllinux_1_2_ppc64le.whl", hash = "sha256:dd16e78eb18ffdb25ee33a0682d17912e8cc8a770e885aeee95020046128f1ce" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-musllinux_1_2_s390x.whl", hash = "sha256:ffcca5b9efe948ba0661e9df0fa50d2bc4b097c70b9810212d6b62f05d83b2dd" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:c56b4d162ca2b43318ac671c65bd4d563e841a694ac70e1a976ac38fcf4ca1d2" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-win32.whl", hash = "sha256:9ddc42e68114e161e51e272f667d640f97e84a2b9ef14b7477c53aac20c2d59a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-win_amd64.whl", hash = "sha256:7a7c7fdf755032ffdd72c77e3d8096bdcb0eb92e89e17571a196f03d88b11b3c" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp313-cp313t-win_arm64.whl", hash = "sha256:df9eb838c44f570283712e7cff14c16329a9f0fb19ca492d21d4b7528ee6821e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-macosx_10_13_universal2.whl", hash = "sha256:9697a52e57576c83139d7c6f213d64485d3df5bf84807c35fa409e6c970801c6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-macosx_10_13_x86_64.whl", hash = "sha256:e18bc3f73bd41243c9b38a6d9f2366cd0e0137a9aebe2d8ff76c5b67d4c0a3f4" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:61a08bcb0ec14ff4e0ed2044aad948d0659604f824cbd50b55e30b0ec6f09c73" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:c9c30003b9347c24bcc210958c5d167b9e4f9be786cb380a7d32f14f9b84674f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:4e1e592789704459900728d88d41a46fe3969b82ab62945560a31732ffc19a6d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:6538241f45eb5a25aa575dbba1069ad786f68a4f2773a29a2bd3dd1f9de787be" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:bce22519c989bb72a7e6b36a199384c53db7722fe669ba891da75907fe3587db" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:66d559b21d3640203ab9075797a55165d79017520685fb407b9234d72ab63c62" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-musllinux_1_2_ppc64le.whl", hash = "sha256:669dcfb2e38f9e8c69507bace46f4889e3abbfd9b0c29719202883c0a603598f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-musllinux_1_2_s390x.whl", hash = "sha256:32f74f35ff0f25a5021373ac61442edcb150731fbaa28286bbc8bb1582c89d02" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:e6c7a21dffba883234baefe91bc3388e629779582038f75d2a5be918e250f0ed" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-win32.whl", hash = "sha256:795ea137b1d809eb6836b43748b12634291c0ed55ad50a7d72d21edf1cd565c4" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-win_amd64.whl", hash = "sha256:9f95fbaa0ee1610ec0fc6b26668e9917a582ba80c52cc6d9ada15e30aa9ab9ad" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314-win_arm64.whl", hash = "sha256:dfec44d532be4c07088c3de2876130ff0fbeeacaa89a137decbbb5f665855a0f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-macosx_10_13_universal2.whl", hash = "sha256:ba0d8a5d7f04f73ee7d01d974d47c5834f8a1b0224390e4fe7c12a3a92a78ecc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-macosx_10_13_x86_64.whl", hash = "sha256:442d86cf1cfe4faabf97db7d901ef58347efd004934da045c745e7b5bd57ac49" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:fd0a5e563c756de210bb964789b5abe4f114dacae9104a47e1a649b910361536" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:bf3490bcbb985a1ae97b2ce9ad1c0f06a852d5b19dde9b07bdf25bf224248c95" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:3809988f0a8b8c9dcc0f92478d6501fac7200b9ec56aecf0ec21f4a2ec4b6009" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:f4ff94e58e84aedb9c9fce66d4ef9f27a190285b451420f297c9a09f2b9abee9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:7eb542fd347ce61e1321b0a6b945d5701528dca0cd9759c2e3bb8bd57e47964d" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:d6c2d5919075a1f2e413c00b056ea0c2f065b3f5fe83c3d07d325ab92dce51d6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-musllinux_1_2_ppc64le.whl", hash = "sha256:3f8bf11a4827cc7ce5a53d4ef6cddd5ad25595d3c1435ef08f76825851343154" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-musllinux_1_2_s390x.whl", hash = "sha256:22c12d837298651e5550ac1d964e4ff57c3f56965fc1812c90c9fb2028eaf267" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:62ba394a3dda9ad41c7c780f60f6e4a70988741415ae96f6d1bf6c239cf01379" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-win32.whl", hash = "sha256:4bf146dca15cdd53224a1bf46d628bd7590e4a07fbb69e720d561aea43a32b38" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-win_amd64.whl", hash = "sha256:adad1a1bcf1c9e76346e091d22d23ac54ef28e1365117d99521631078dfec9de" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/regex/2025.11.3/regex-2025.11.3-cp314-cp314t-win_arm64.whl", hash = "sha256:c54f768482cef41e219720013cd05933b6f971d9562544d691c68699bf2b6801" },
+]
+
+[[package]]
+name = "requests"
+version = "2.32.5"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/requests/2.32.5/requests-2.32.5.tar.gz", hash = "sha256:dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/requests/2.32.5/requests-2.32.5-py3-none-any.whl", hash = "sha256:2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6" },
+]
+
+[[package]]
+name = "setuptools"
+version = "80.9.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/setuptools/80.9.0/setuptools-80.9.0.tar.gz", hash = "sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/setuptools/80.9.0/setuptools-80.9.0-py3-none-any.whl", hash = "sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922" },
+]
+
+[[package]]
+name = "sympy"
+version = "1.14.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "mpmath" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/sympy/1.14.0/sympy-1.14.0.tar.gz", hash = "sha256:d3d3fe8df1e5a0b42f0e7bdf50541697dbe7d23746e894990c030e2b05e72517" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/sympy/1.14.0/sympy-1.14.0-py3-none-any.whl", hash = "sha256:e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5" },
+]
+
+[[package]]
+name = "tiktoken"
+version = "0.12.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "regex" },
+    { name = "requests" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0.tar.gz", hash = "sha256:b18ba7ee2b093863978fcb14f74b3707cdc8d4d4d3836853ce7ec60772139931" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:b97f74aca0d78a1ff21b8cd9e9925714c15a9236d6ceacf5c7327c117e6e21e8" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:2b90f5ad190a4bb7c3eb30c5fa32e1e182ca1ca79f05e49b448438c3e225a49b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:65b26c7a780e2139e73acc193e5c63ac754021f160df919add909c1492c0fb37" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:edde1ec917dfd21c1f2f8046b86348b0f54a2c0547f68149d8600859598769ad" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:35a2f8ddd3824608b3d650a000c1ef71f730d0c56486845705a8248da00f9fe5" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:83d16643edb7fa2c99eff2ab7733508aae1eebb03d5dfc46f5565862810f24e3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp312-cp312-win_amd64.whl", hash = "sha256:ffc5288f34a8bc02e1ea7047b8d041104791d2ddbf42d1e5fa07822cbffe16bd" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:775c2c55de2310cc1bc9a3ad8826761cbdc87770e586fd7b6da7d4589e13dab3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a01b12f69052fbe4b080a2cfb867c4de12c704b56178edf1d1d7b273561db160" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:01d99484dc93b129cd0964f9d34eee953f2737301f18b3c7257bf368d7615baa" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:4a1a4fcd021f022bfc81904a911d3df0f6543b9e7627b51411da75ff2fe7a1be" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:981a81e39812d57031efdc9ec59fa32b2a5a5524d20d4776574c4b4bd2e9014a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:9baf52f84a3f42eef3ff4e754a0db79a13a27921b457ca9832cf944c6be4f8f3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313-win_amd64.whl", hash = "sha256:b8a0cd0c789a61f31bf44851defbd609e8dd1e2c8589c614cc1060940ef1f697" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:d5f89ea5680066b68bcb797ae85219c72916c922ef0fcdd3480c7d2315ffff16" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:b4e7ed1c6a7a8a60a3230965bdedba8cc58f68926b835e519341413370e0399a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-manylinux_2_28_aarch64.whl", hash = "sha256:fc530a28591a2d74bce821d10b418b26a094bf33839e69042a6e86ddb7a7fb27" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-manylinux_2_28_x86_64.whl", hash = "sha256:06a9f4f49884139013b138920a4c393aa6556b2f8f536345f11819389c703ebb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:04f0e6a985d95913cabc96a741c5ffec525a2c72e9df086ff17ebe35985c800e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:0ee8f9ae00c41770b5f9b0bb1235474768884ae157de3beb5439ca0fd70f3e25" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp313-cp313t-win_amd64.whl", hash = "sha256:dc2dd125a62cb2b3d858484d6c614d136b5b848976794edfb63688d539b8b93f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-macosx_10_13_x86_64.whl", hash = "sha256:a90388128df3b3abeb2bfd1895b0681412a8d7dc644142519e6f0a97c2111646" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:da900aa0ad52247d8794e307d6446bd3cdea8e192769b56276695d34d2c9aa88" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:285ba9d73ea0d6171e7f9407039a290ca77efcdb026be7769dccc01d2c8d7fff" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:d186a5c60c6a0213f04a7a802264083dea1bbde92a2d4c7069e1a56630aef830" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:604831189bd05480f2b885ecd2d1986dc7686f609de48208ebbbddeea071fc0b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:8f317e8530bb3a222547b85a58583238c8f74fd7a7408305f9f63246d1a0958b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314-win_amd64.whl", hash = "sha256:399c3dd672a6406719d84442299a490420b458c44d3ae65516302a99675888f3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-macosx_10_13_x86_64.whl", hash = "sha256:c2c714c72bc00a38ca969dae79e8266ddec999c7ceccd603cc4f0d04ccd76365" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:cbb9a3ba275165a2cb0f9a83f5d7025afe6b9d0ab01a22b50f0e74fee2ad253e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-manylinux_2_28_aarch64.whl", hash = "sha256:dfdfaa5ffff8993a3af94d1125870b1d27aed7cb97aa7eb8c1cefdbc87dbee63" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-manylinux_2_28_x86_64.whl", hash = "sha256:584c3ad3d0c74f5269906eb8a659c8bfc6144a52895d9261cdaf90a0ae5f4de0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:54c891b416a0e36b8e2045b12b33dd66fb34a4fe7965565f1b482da50da3e86a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:5edb8743b88d5be814b1a8a8854494719080c28faaa1ccbef02e87354fe71ef0" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tiktoken/0.12.0/tiktoken-0.12.0-cp314-cp314t-win_amd64.whl", hash = "sha256:f61c0aea5565ac82e2ec50a05e02a6c44734e91b51c10510b084ea1b8e633a71" },
+]
+
+[[package]]
+name = "torch"
+version = "2.9.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "filelock" },
+    { name = "fsspec" },
+    { name = "jinja2" },
+    { name = "networkx" },
+    { name = "nvidia-cublas-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cuda-cupti-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cuda-nvrtc-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cuda-runtime-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cudnn-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cufft-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cufile-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-curand-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cusolver-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cusparse-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-cusparselt-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-nccl-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-nvjitlink-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-nvshmem-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "nvidia-nvtx-cu12", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "setuptools" },
+    { name = "sympy" },
+    { name = "triton", marker = "platform_machine == 'x86_64' and sys_platform == 'linux'" },
+    { name = "typing-extensions" },
+]
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:e5f7af1dc4c0a7c4a260c2534f41ddaf209714f7c89145e644c44712fbd6b642" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:01cff95ecd9a212ea2f141db28acccdceb6a4c54f64e6c51091146f5e2a772c6" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp312-cp312-win_amd64.whl", hash = "sha256:4582b162f541651f0cb184d3e291c05c2f556c7117c64a9873e2ee158d40062b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp312-none-macosx_11_0_arm64.whl", hash = "sha256:33f58e9a102a91259af289d50525c30323b5c9ae1d31322b6447c0814da68695" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:c30a17fc83eeab346913e237c64b15b5ba6407fff812f6c541e322e19bc9ea0e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:8f25033b8667b57857dfd01458fbf2a9e6a6df1f8def23aef0dc46292f6aa642" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313-win_amd64.whl", hash = "sha256:d037f1b4ffd25013be4a7bf3651a0a910c68554956c7b2c92ebe87c76475dece" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:e4e5b5cba837a2a8d1a497ba9a58dae46fa392593eaa13b871c42f71847503a5" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313t-manylinux_2_28_aarch64.whl", hash = "sha256:64693568f5dc4dbd5f880a478b1cea0201cc6b510d91d1bc54fea86ac5d1a637" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313t-manylinux_2_28_x86_64.whl", hash = "sha256:f8ed31ddd7d10bfb3fbe0b9fe01b1243577f13d75e6f4a0839a283915ce3791e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-cp313t-win_amd64.whl", hash = "sha256:eff527d4e4846e6f70d2afd8058b73825761203d66576a7e04ea2ecfebcb4ab8" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp313-none-macosx_11_0_arm64.whl", hash = "sha256:f8877779cf56d1ce431a7636703bdb13307f5960bb1af49716d8b179225e0e6a" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:7e614fae699838038d888729f82b687c03413c5989ce2a9481f9a7e7a396e0bb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314-manylinux_2_28_aarch64.whl", hash = "sha256:dfb5b8cd310ba3436c7e14e8b7833ef658cf3045e50d2bdaed23c8fc517065eb" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314-manylinux_2_28_x86_64.whl", hash = "sha256:b3d29524993a478e46f5d598b249cd824b7ed98d7fba538bd9c4cde6c803948f" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314-win_amd64.whl", hash = "sha256:71c7578984f5ec0eb645eb4816ac8435fcf3e3e2ae1901bcd2f519a9cafb5125" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:71d9309aee457bbe0b164bce2111cd911c4ed4e847e65d5077dbbcd3aba6befc" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314t-manylinux_2_28_aarch64.whl", hash = "sha256:c08fb654d783899e204a32cca758a7ce8a45b2d78eeb89517cc937088316f78e" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314t-manylinux_2_28_x86_64.whl", hash = "sha256:ec8feb0099b2daa5728fbc7abb0b05730fd97e0f359ff8bda09865aaa7bd7d4b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/torch/2.9.0/torch-2.9.0-cp314-cp314t-win_amd64.whl", hash = "sha256:695ba920f234ad4170c9c50e28d56c848432f8f530e6bc7f88fcb15ddf338e75" },
+]
+
+[[package]]
+name = "tqdm"
+version = "4.67.1"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tqdm/4.67.1/tqdm-4.67.1.tar.gz", hash = "sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/tqdm/4.67.1/tqdm-4.67.1-py3-none-any.whl", hash = "sha256:26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2" },
+]
+
+[[package]]
+name = "triton"
+version = "3.5.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:7da21fccceafc163e3a5e857abe34351ef76345af06cabf9637a914742671f0b" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c9e71db82261c4ffa3921cd050cd5faa18322d2d405c30eb56084afaff3b0833" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:188da5b81fa2f8322c27fec1627703eac24cb9bb7ab0dfbe9925973bc1b070d3" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:e6bb9aa5519c084a333acdba443789e50012a4b851cd486c54f0b8dc2a8d3a12" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp313-cp313t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:03127d9b33aaf979c856676b394bc059ec1d68cb6da68ae03f62dd8ad77a04ae" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c83f2343e1a220a716c7b3ab9fccfcbe3ad4020d189549200e2d2e8d5868bed9" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:468936651d383f4a6d10068d34a627505e13af55be5d002b9f27b987e7a5f0ac" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:da0fa67ccd76c3dcfb0bffe1b1c57c685136a6bd33d141c24d9655d4185b1289" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp314-cp314t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:c7ceef21410229ac23173a28eee5cfc0e37c1dfdb8b4bc11ecda2e3ecec7c686" },
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/triton/3.5.0/triton-3.5.0-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:317fe477ea8fd4524a6a8c499fb0a36984a56d0b75bf9c9cb6133a1c56d5a6e7" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.15.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/typing-extensions/4.15.0/typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/typing-extensions/4.15.0/typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548" },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.5.0"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/urllib3/2.5.0/urllib3-2.5.0.tar.gz", hash = "sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/urllib3/2.5.0/urllib3-2.5.0-py3-none-any.whl", hash = "sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc" },
+]
+
+[[package]]
+name = "youtube-downloader"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "openai-whisper" },
+    { name = "youtube-transcript-api" },
+    { name = "yt-dlp" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "openai-whisper", specifier = ">=20250625" },
+    { name = "youtube-transcript-api", specifier = ">=1.2.3" },
+    { name = "yt-dlp", specifier = ">=2025.10.22" },
+]
+
+[[package]]
+name = "youtube-transcript-api"
+version = "1.2.3"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+dependencies = [
+    { name = "defusedxml" },
+    { name = "requests" },
+]
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/youtube-transcript-api/1.2.3/youtube_transcript_api-1.2.3.tar.gz", hash = "sha256:76016b71b410b124892c74df24b07b052702cf3c53afb300d0a2c547c0b71b68" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/youtube-transcript-api/1.2.3/youtube_transcript_api-1.2.3-py3-none-any.whl", hash = "sha256:0c1b32ea5e739f9efde8c42e3d43e67df475185af6f820109607577b83768375" },
+]
+
+[[package]]
+name = "yt-dlp"
+version = "2025.10.22"
+source = { registry = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/simple" }
+sdist = { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/yt-dlp/2025.10.22/yt_dlp-2025.10.22.tar.gz", hash = "sha256:db2d48133222b1d9508c6de757859c24b5cefb9568cf68ccad85dac20b07f77b" }
+wheels = [
+    { url = "https://dmrepository.datamaran.com:8443/repository/dmPYTHON/packages/yt-dlp/2025.10.22/yt_dlp-2025.10.22-py3-none-any.whl", hash = "sha256:9c803a9598859f91d0d5bd3337f1506ecb40bbe97f6efbe93bc4461fed344fb2" },
+]
